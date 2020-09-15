@@ -11,4 +11,4 @@ Prerequisites:
 [[Introduction to Python Series - Notes and Videos]](https://github.com/scaleracademy/intro-to-python)
 
 # Lectures
-- Lecture 1: [[Notes]](/lecture1.md) [[Video]](https://www.youtube.com/watch?v=_35uYwlxcu4)
+- Lecture 1: [[Notes]](/lecture_1.md) [[Video]](https://www.youtube.com/watch?v=_35uYwlxcu4) [[Code]](/lecture_1/)
