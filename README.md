@@ -14,3 +14,4 @@ Prerequisites:
 - Lecture 1: [[Notes]](/lecture_1.md) [[Video]](https://www.youtube.com/watch?v=_35uYwlxcu4) [[Code]](/lecture_1/)
 - Lecture 2: [[Video]](https://www.youtube.com/watch?v=NYRxFU4zZNQ) [[Code]](/lecture_2/)
 - Lecture 3: [[Video]](https://www.youtube.com/watch?v=aavReR8gZYE) [[Code]](/lecture_3/)
+- Lecture 4: [[Video]](https://www.youtube.com/watch?v=GN5yvf07wCU) [[Code]](/lecture_4/)
