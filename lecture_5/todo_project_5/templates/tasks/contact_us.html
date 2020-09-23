@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+<body>
+<form action="" method="POST">
+    {% csrf_token %}
+    Subject: <input name="subject" type="text" maxlength="255"> <br>
+    Message: <textarea name="message">Content goes here..</textarea>
+    Your email: <input type="text" name="email">
+    <input type="submit" name="submit" value="Send Mail!">
+</form>
+</body>
+</html>

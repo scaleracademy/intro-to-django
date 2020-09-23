@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All the tasks</title>
+</head>
+<body>
+<form action="" method="POST">
+    {% csrf_token %}
+    <h1>Create New Task</h1>
+    Content: <textarea name="content"></textarea> <br>
+    Deadline: <input type="datetime-local" name="deadline"/> <br>
+    <input type="submit" name="submit" value="Add Task!">
+</form>
+</body>
+</html>
