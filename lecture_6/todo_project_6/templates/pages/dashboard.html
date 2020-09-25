@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+</head>
+<body>
+<h1>Welcome, {{ request.user }}</h1>
+
+<p><span><a href="{% url 'logout' %}">Logout</a></span></p>
+
+<h1>My Tasks</h1>
+<ul>
+    {% for task in tasks %}
+    <li>{{ task }}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'add_task' %}">Add a new Task</a>
+
+<h1>My Tags</h1>
+<ul>
+    {% for tag in tags %}
+    <li>{{ tag }}</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'add_tag' %}">Add a new Tag</a>
+</body>
+</html>

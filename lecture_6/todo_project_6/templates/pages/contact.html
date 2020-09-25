@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+<body>
+<h1>Contact Us</h1>
+<form action="" method="POST">
+    {% csrf_token %}
+    <table>
+        {{ form.as_table }}
+        <tr>
+            <td colspan="2"><input type="submit" name="submit" value="Send Mail"></td>
+        </tr>
+    </table>
+</form>
+{% if request.user.is_authenticated  %}
+    <p><span><a href="{% url 'logout' %}">Logout</a></span></p>
+{% else %}
+    <p><span><a href="{% url 'login' %}">Login</a></span></p>
+{% endif %}
+<p><span><a href="{% url 'register' %}">Sign Up</a></span></p>
+</body>
+</html>
